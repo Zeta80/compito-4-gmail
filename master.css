@@ -1,0 +1,79 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;    
+}
+
+body{
+    background-image: url(./immagini/galaxy.jpg);
+    width: 1000px;
+    margin: auto;
+}
+#conteiner{        
+    text-align: center;
+    color: rgb(202, 255, 187);
+}
+
+#messaggi{    
+    color: rgb(202, 255, 187);
+}
+
+#numero-posta{
+    background-color:  rgb(255, 0, 0);
+    border-radius: 50%;
+    padding: 2px;       
+}
+
+#immagine{
+    width: 300px;    
+}
+
+#nome-mail{
+    display: inline-block;
+    font-size: 45px;    
+}
+
+.titolo-mail{
+    
+    width: 200px;
+    display: inline-block;
+    text-align: left;      
+}
+
+.corpo-mail{    
+    width: 300px;
+    display: inline-block;
+    text-align: left;
+    opacity: 0.4;    
+}
+
+#input-cerca{
+    align-items: left;
+}
+#raw{
+    background-color: rgb(215, 222, 216);
+    background-size: cover;
+    border: 1px double black ;    
+}
+
+#raw2{
+    background-color: gray;
+    border-bottom: 2px solid transparent;
+    border: 1px double black ;
+}
+
+#raw3{
+    background-color: rgb(215, 222, 216);
+    border-bottom: 2px solid transparent;   
+    border: 1px double black ;
+}
+
+#raw4{
+    background-color: gray;
+    border-bottom: 2px solid transparent;   
+    border: 1px double black ;   
+}
+
+footer{
+    text-align: center;
+    color: rgb(202, 255, 187);
+}
